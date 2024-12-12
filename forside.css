@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+main {
+  max-width: 1200px;
+  margin-inline: auto;
+}
+
+/*********** Layout ***********/
+body {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.grid_f_1-1-1-1 {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  grid-template-rows: 1fr 2fr 1fr;
+  background-color: #7aa5bf;
+  margin-bottom: 5%;
+}
+
+.fill {
+  background-color: #f2e7dc;
+  grid-column: 2/3;
+  grid-row: 2/3;
+  padding-top: 5%;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-bottom: 3%;
+  text-align: center;
+}
+.forsideknap {
+  text-align: center;
+}
+.slogan {
+  background-color: #f2e7dc;
+  text-align: center;
+  padding-top: 10%;
+  padding-bottom: 10%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+.hero {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  margin-bottom: 5%;
+}
+
+/*********** Style ***********/

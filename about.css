@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+main {
+  max-width: 1200px;
+  margin-inline: auto;
+}
+
+/*********** Layout ***********/
+body {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+img {
+  max-width: 100%;
+  border-radius: 15px;
+  margin-top: 70px;
+  margin-bottom: 5%;
+}
+.thefounders {
+  text-align: center;
+}
+
+.theprocess {
+  text-align: center;
+}
+.video {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+/* @media (max-width: 800px) {
+  .aboutthefounders {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+} */
+
+@media (min-width: 800px) {
+  .aboutthefounders {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 10%;
+    gap: 10%;
+  }
+}
+/*********** Style ***********/
