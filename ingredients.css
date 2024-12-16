@@ -42,7 +42,8 @@ F2E7DC
 .mytext {
   padding-left: 4rem;
   padding-right: 4rem;
-  padding-top: 2rem;
+  padding-top: 0.5rem;
+  padding-bottom: 4rem;
   line-height: 2rem;
 }
 
