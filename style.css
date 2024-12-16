@@ -143,12 +143,11 @@ img {
 
 /****overskrifter og tekst******/
 h1 {
-  font-family: "Sansita", serif;
-  font-weight: 700;
-  font-style: italic;
-  font-size: 55px;
+  margin-top: 30px;
+  font-family: "Roboto Mono", monospace;
+  font-size: 1.2rem;
+  text-align: left;
   color: #405572;
-  text-align: center;
 }
 
 h2,

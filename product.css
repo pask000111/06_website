@@ -1,22 +1,4 @@
 /********* overskrifter, tekst og padding mm  *********/
-h1 {
-  font-family: "Sansita", serif;
-  font-weight: 700;
-  font-style: italic;
-  font-size: 55px;
-  color: #405572;
-  text-align: center;
-}
-
-h2,
-h3 {
-  font-family: "Sansita", serif;
-  font-weight: 400;
-  font-style: normal;
-  color: #405572;
-  text-align: center;
-}
-
 .a {
   line-height: 2.5rem;
   font-size: 15px;
