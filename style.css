@@ -1,32 +1,193 @@
 /********** FÆLLES ***********/
 
-/********** LOGO til header *******/
-.logo {
-  max-width: 150px;
-  height: auto;
-  margin-left: 15px;
+/******************* Menu og burger *********************/
+
+header {
+  position: sticky;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-block: 2rem;
+  background-color: #f2e7dc;
+  z-index: 10;
 }
 
-/************* Burger menu *********/
-.burger-menu {
+.logo {
+  width: 8%;
+  margin-left: 1rem;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+}
+
+.menu {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  color: #f2e7dc;
+  font-weight: bold;
+  font-family: "Sansita", serif;
+  font-style: italic;
+  font-size: 30px;
+  margin-right: 50px;
+}
+
+.menu li {
+  margin-right: 20px;
+  background-color: #f2e7dc;
+  border-width: 5cm;
+}
+.menu li:hover {
+  color: #7aa5bf;
+  background-color: #f2e7dc;
+}
+.menu .activ {
+  color: #7aa5bf;
+  background-color: #f2e7dc;
+}
+.menu li:last-child {
+  margin-right: 0;
+}
+
+.menu a {
+  display: block;
+  padding: 30px;
+  color: #405572;
+  text-decoration: none;
+  transition: color 0.3s;
+  text-align: end;
+}
+
+.menu a:hover {
+  color: #7aa5bf;
+}
+
+.burger {
+  width: 30px;
+  height: 20px;
+  cursor: pointer;
+}
+
+.burger .line {
+  width: 100%;
+  height: 2px;
+  background-color: #405572;
+  margin-bottom: 5px;
+  transition: 0.2s linear;
+}
+.burger {
   display: none;
 }
 
-@media (max-width: 768px) {
-  .nav-menu {
+@media screen and (max-width: 900px) {
+  .menu {
     display: none;
-    background-color: #f2e7dc;
   }
-
-  .burger-menu {
+  .burger {
     display: block;
-    position: absolute;
-    top: 40px;
-    right: 30px;
+    margin-right: 0.5rem;
+  }
+  .burger.active .line:nth-child(1) {
+    transform: rotate(45deg) translate(5px, 5px);
+    transition: 0.2s linear;
   }
 
-  .burger-menu img {
-    width: 80px;
-    height: auto;
+  .burger.active .line:nth-child(2) {
+    opacity: 0;
+    transition: 0.15s linear;
   }
+
+  .burger.active .line:nth-child(3) {
+    transform: rotate(-45deg) translate(5px, -5px);
+    transition: 0.2s linear;
+  }
+  nav.active .menu {
+    display: block;
+    background-color: #f2e7dc;
+    position: absolute;
+    top: 36px;
+    left: 0;
+    width: 100%;
+    margin-top: 3rem;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+    height: 1000px;
+  }
+
+  nav.active .menu li {
+    margin: 10px 20px;
+  }
+
+  nav.active .menu a {
+    font-size: 16px;
+    text-align: center;
+  }
+}
+
+/***********Reset**************/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/****overskrifter og tekst******/
+h1 {
+  font-family: "Sansita", serif;
+  font-weight: 700;
+  font-style: italic;
+  font-size: 55px;
+  color: #405572;
+  text-align: center;
+}
+
+h2,
+h3 {
+  font-family: "Sansita", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #405572;
+  text-align: center;
+}
+
+.a {
+  line-height: 2.5rem;
+  font-size: 15px;
+  font-family: "Corben", serif;
+  color: black;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 35px;
+  padding-top: 5.5rem;
+  padding-bottom: 2rem;
+}
+h3 {
+  padding: 1rem;
+  font-size: 20px;
+}
+
+p {
+  line-height: 2.5rem;
+  font-size: 20px;
+  font-family: "Corben", serif;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+footer {
+  background-color: #f2e7dc;
 }

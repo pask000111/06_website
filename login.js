@@ -1,9 +1,14 @@
-// document.querySelectorAll(".shopknap").forEach((button) => {
-//   button.addEventListener("click", function (event) {
-//     event.preventDefault(); // Forhindrer standard link-adfærd
-//     const targetPage = this.getAttribute("data-target"); // Hent værdien fra data-target
-//     if (targetPage) {
-//       window.location.href = targetPage; // Naviger til målsiden
-//     }
-//   });
-// });
+const burger = document.querySelector(".burger");
+const nav = document.querySelector("nav");
+const menu = document.querySelector(".menu");
+
+burger.addEventListener("click", burgerClick);
+function burgerClick() {
+  burger.classList.toggle("active");
+  nav.classList.toggle("active");
+}
+menu.addEventListener("click", menuClick);
+function menuClick() {
+  burger.classList.remove("active");
+  nav.classList.remove("active");
+}
