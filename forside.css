@@ -1,19 +1,8 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
 /*********** Layout ***********/
-body {
-  margin-left: 1rem;
-  margin-right: 1rem;
-}
 .Welcome {
   margin-bottom: 5%;
 }
 .welcometext {
-  margin-bottom: 2%;
   text-align: center;
   font-family: "Corben", sans-serif;
   margin-bottom: 30px;
@@ -38,10 +27,10 @@ body {
   padding-left: 5%;
   padding-right: 5%;
   padding-bottom: 3%;
-  text-align: center;
   border: 1px solid black;
   border-radius: 30px;
   height: 100%;
+  text-align: center;
 }
 
 .fill h1 {
@@ -54,7 +43,8 @@ body {
 
 .fill p {
   font-size: 20px;
-  line-height: 2rem;
+  line-height: 2.5rem;
+  color: #405572;
 }
 
 .forsideknap {
@@ -93,13 +83,12 @@ body {
 }
 .slogan {
   display: block;
-  width: 80%;
-  height: 50%;
+  width: 70%;
   margin-top: 20px;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 50px;
-  border-radius: 40px;
+  margin-bottom: 40px;
+  border-radius: 30px;
 }
 
 .knap1forside,
