@@ -31,6 +31,7 @@ F2E7DC
   text-align: center;
   padding-top: 5rem;
   padding-bottom: 3rem;
+  font-size: 40px;
 }
 
 .only {
@@ -61,12 +62,26 @@ F2E7DC
   font-size: 30px;
   padding-top: 0.05rem;
 }
+.grid4_1 {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 30px;
+}
 
 @media (min-width: 800px) {
   .grid4_1 {
-    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .ingredients {
+    font-size: 50px;
+  }
+}
+@media (min-width: 1000px) {
+  .grid4_1 {
     grid-template-columns: 1fr 1fr 1fr;
-    gap: 30px;
+  }
+  .ingredients {
+    font-size: 70px;
   }
 }
 
