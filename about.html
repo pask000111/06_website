@@ -5,15 +5,45 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Corben&family=Lato:wght@700&family=Lexend+Exa:wght@100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Baskervville:ital@0;1&family=Bebas+Neue&family=Corben:wght@400;700&family=Domine:wght@400..700&family=Modak&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Rubik+Mono+One&family=Sansita:ital,wght@0,400;0,700;0,800;0,900;1,400;1,700;1,800;1,900&family=Staatliches&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Baskervville:ital@0;1&family=Bebas+Neue&family=Corben:wght@400;700&family=Domine:wght@400..700&family=Modak&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Rubik+Mono+One&family=Sansita:ital,wght@0,400;0,700;0,800;0,900;1,400;1,700;1,800;1,900&family=Staatliches&display=swap"
+        rel="stylesheet">
+    <link rel="icon" href="billeder/logo.png" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="about.css">
 </head>
 
 <body>
     <header>
-        <a href="index.html" class="logo-link">
-            <img src="shopbilleder/logo.png" alt="logo" class="logo">
-        </a>
+        <div class="logo">
+            <a href="index.html">
+                <img src="amandaimg/logo.webp" alt="Logo">
+            </a>
+        </div>
+        <nav>
+            <ul class="menu">
+                <li><a href="shop.html">SHOP</a></li>
+                <li><a href="product.html">PRODUCT</a></li>
+                <li><a href="ingredients.html">INGREDIENTS</a></li>
+                <li><a href="about.html">ABOUT US</a></li>
+            </ul>
+            <div>
+                <div class="burger">
+                    <div class="line"></div>
+                    <div class="line"></div>
+                    <div class="line"></div>
+                </div>
+            </div>
+        </nav>
+        <script src="login.js"></script>
     </header>
 
 
@@ -21,29 +51,57 @@
         <h1>The process</h1>
     </div>
     <div class="video">
-        <img src="abilleder/placeholder.png" alt="placeholderrrr">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/dem4cTm4P9k?si=1Q_tKF5rXsDuU9je"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
     </div>
 
     <h1 class="thefounders">The founders</h1>
 
     <div class="aboutthefounders">
-        <div>
-            <img src="abilleder/placeholder.png" alt="placeholderr">
-            <h2>person 1</h2>
+        <img class="aboutbilleder" src="abilleder/founders.jpg" alt="founders">
+        <div class="abouttext">
             <p>We are a team consisting of Louise Kronborg Frandsen and Erik Krauff, currently studying
                 nursing in the sixth semester at the Copenhagen University College and Medicine and
                 Technology in the fourth semester at the Technical University of Denmark and the University
                 of Copenhagen, respectively.</p>
         </div>
-        <div>
-            <img src="abilleder/placeholder.png" alt="placeholderrr">
-            <h2>person 2</h2>
-            <p> We are a team consisting of Louise Kronborg Frandsen and Erik Krauff, currently studying
-                nursing in the sixth semester at the Copenhagen University College and Medicine and
-                Technology in the fourth semester at the Technical University of Denmark and the University
-                of Copenhagen, respectively.</p>
-        </div>
     </div>
+
+    <footer>
+        <div class="gridfooter1_1-1">
+            <div class="footerline">
+                <p> <b>Contact LunaDent</b> </p>
+                <p>projectlunadent@outlook.com </p>
+                <p><b>Follow our process here</b></p>
+
+                <a href="https://www.linkedin.com/company/projectlunadent/">
+                    <img class="linkedin" src="amandaimg/linkedin.png" alt="LinkedIn"></a>
+                <p>©LunaDent Copenhagen </p>
+            </div>
+
+            <div class="footerline">
+                <p>Be the first to know! <br>
+                    Join our email list and get notified as soon as we launch:</p>
+
+                <div class="contact-container">
+                    <form>
+                        <div class="form-row">
+                            <input type="text" placeholder="NAME">
+                            <input type="text" placeholder="PHONE">
+                        </div>
+                        <div class="form-row">
+                            <input type="email" placeholder="EMAIL">
+                        </div>
+                        <textarea placeholder="MESSAGE"></textarea>
+                        <button type="submit">SIGN UP</button>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </footer>
 </body>
 
 </html>

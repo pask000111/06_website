@@ -10,6 +10,12 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Corben&family=Lato:wght@700&family=Lexend+Exa:wght@100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap"
         rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Baskervville:ital@0;1&family=Bebas+Neue&family=Corben:wght@400;700&family=Domine:wght@400..700&family=Modak&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Rubik+Mono+One&family=Sansita:ital,wght@0,400;0,700;0,800;0,900;1,400;1,700;1,800;1,900&family=Staatliches&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Baskervville:ital@0;1&family=Bebas+Neue&family=Corben:wght@400;700&family=Domine:wght@400..700&family=Modak&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Rubik+Mono+One&family=Sansita:ital,wght@0,400;0,700;0,800;0,900;1,400;1,700;1,800;1,900&family=Staatliches&display=swap"
+        rel="stylesheet">
     <link rel="icon" href="billeder/logo.png" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="forside.css">
@@ -20,12 +26,30 @@
 
 
     <header>
-        <a href="index.html" class="logo-link">
-            <img src="shopbilleder/logo.png" alt="logo" class="logo">
-        </a>
+        <div class="logo">
+            <a href="index.html">
+                <img src="amandaimg/logo.webp" alt="Logo">
+            </a>
+        </div>
+        <nav>
+            <ul class="menu">
+                <li><a href="shop.html">SHOP</a></li>
+                <li><a href="product.html">PRODUCT</a></li>
+                <li><a href="ingredients.html">INGREDIENTS</a></li>
+                <li><a href="about.html">ABOUT US</a></li>
+            </ul>
+            <div>
+                <div class="burger">
+                    <div class="line"></div>
+                    <div class="line"></div>
+                    <div class="line"></div>
+                </div>
+            </div>
+        </nav>
+        <script src="login.js"></script>
     </header>
-    <div>
-        <img class="hero" src="abilleder/placeholder.png" alt="placeholder">
+    <div class="hero_wrapper">
+        <img class="hero" src="amandaimg/herosectionforside.webp" alt="placeholder">
         <a href="shop.html">
             <img class="knap1forside" src="abilleder/knap1.svg" alt="knap1">
         </a>
@@ -36,7 +60,7 @@
 
     <div class="grid_f_1-1-1-1">
         <div class="fill">
-            <h2 class="Welcome">Welcome</h2>
+            <h1 class="Welcome">Welcome</h1>
             <p class="welcometext">Imagine falling asleep effortlessly every night just by brushing your teeth.
                 Introducing LunaDent, a toothpaste designed
                 to enhance your sleep routine. Our unique formula combines natural ingredients to promote relaxation and
@@ -55,9 +79,43 @@
 
         </div>
     </div>
-    <div class="slogan">
-        <h1>Brush your way to better sleep and health</h1>
-    </div>
+
+    <img class="slogan" src="abilleder/Slogan.png">
+
+
+    <footer>
+        <div class="gridfooter1_1-1">
+            <div class="footerline">
+                <p> <b>Contact LunaDent</b> </p>
+                <p>projectlunadent@outlook.com </p>
+                <p><b>Follow our process here</b></p>
+
+                <a href="https://www.linkedin.com/company/projectlunadent/">
+                    <img class="linkedin" src="amandaimg/linkedin.png" alt="LinkedIn"></a>
+                <p>©LunaDent Copenhagen </p>
+            </div>
+
+            <div class="footerline">
+                <p>Be the first to know! <br>
+                    Join our email list and get notified as soon as we launch:</p>
+
+                <div class="contact-container">
+                    <form>
+                        <div class="form-row">
+                            <input type="text" placeholder="NAME">
+                            <input type="text" placeholder="PHONE">
+                        </div>
+                        <div class="form-row">
+                            <input type="email" placeholder="EMAIL">
+                        </div>
+                        <textarea placeholder="MESSAGE"></textarea>
+                        <button type="submit">SIGN UP</button>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </footer>
 
 </body>
 

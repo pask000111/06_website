@@ -14,24 +14,31 @@ body {
   margin-right: 1rem;
 }
 
-img {
+.aboutbilleder {
   max-width: 100%;
   border-radius: 15px;
   margin-top: 70px;
   margin-bottom: 5%;
 }
+.abouttext {
+  padding-top: 100px;
+}
 .thefounders {
+  margin-top: 70px;
   text-align: center;
+  font-size: 30px;
 }
 
-.theprocess {
+.theprocess h1 {
   text-align: center;
+  font-size: 40px;
+  padding-top: 30px;
+  padding-bottom: 40px;
 }
-.video {
+.video iframe {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
 }
 
 @media (min-width: 800px) {
