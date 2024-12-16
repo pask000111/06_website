@@ -29,11 +29,13 @@ F2E7DC
 
 .ingredients {
   text-align: center;
+  padding-top: 5rem;
+  padding-bottom: 3rem;
 }
 
 .only {
   padding-left: 4rem;
-  padding-top: 2rem;
+  padding-top: 5rem;
 }
 
 .mytext {
@@ -41,6 +43,23 @@ F2E7DC
   padding-right: 4rem;
   padding-top: 2rem;
   line-height: 2rem;
+}
+
+.grid4_1 p {
+  margin-top: 15px;
+  font-family: "Corben", sans-serif;
+  font-size: 0.9rem;
+  line-height: 1.2rem;
+}
+
+.grid4_1 h2 {
+  font-family: "Sansita", serif;
+  font-weight: 250;
+  font-style: bold;
+  color: #334003;
+  text-align: center;
+  font-size: 30px;
+  padding-top: 0.05rem;
 }
 
 @media (min-width: 800px) {
@@ -101,8 +120,8 @@ F2E7DC
   background-color: #a9bf7a;
   color: white;
   display: flex; /* Centrerer teksten */
-  padding-left: 2rem;
-  padding-right: 2rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
   align-items: center;
   justify-content: center;
   transform: rotateY(180deg); /* Vender bagsiden */
