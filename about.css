@@ -28,6 +28,8 @@
   margin-left: auto;
   margin-right: auto;
   margin-top: 30px;
+  width: 80%;
+  max-width: 1200px;
 }
 
 @media (min-width: 800px) {
@@ -38,6 +40,10 @@
     padding-right: 10%;
     padding-bottom: 10%;
     gap: 10%;
+  }
+  .video iframe {
+    width: 80%;
+    max-width: 1200px;
   }
 }
 
