@@ -33,13 +33,6 @@ img {
   margin-right: auto;
   width: 50%;
 }
-/* @media (max-width: 800px) {
-  .aboutthefounders {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-  }
-} */
 
 @media (min-width: 800px) {
   .aboutthefounders {
