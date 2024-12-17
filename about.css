@@ -12,14 +12,14 @@
 }
 .thefounders {
   text-align: center;
-  font-size: 40px;
+  font-size: 50px;
   border-top: 2px solid #405572;
   padding-top: 50px;
 }
 
 .theprocess {
   text-align: center;
-  font-size: 40px;
+  font-size: 50px;
   padding-top: 30px;
 }
 .video iframe {
@@ -29,7 +29,7 @@
   margin-top: 30px;
   width: 100%;
   max-width: 1200px;
-  margin-bottom: 50px;
+  margin-bottom: 40px;
 }
 
 @media (min-width: 800px) {
