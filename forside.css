@@ -1,6 +1,6 @@
 /*********** Layout ***********/
 .Welcome {
-  margin-bottom: 5%;
+  margin-bottom: 1%;
 }
 .welcometext {
   text-align: center;
@@ -84,6 +84,7 @@
 .slogan {
   display: block;
   width: 70%;
+  max-height: 300px;
   margin-top: 20px;
   margin-left: auto;
   margin-right: auto;
