@@ -22,14 +22,13 @@
   font-size: 50px;
   padding-top: 30px;
 }
-.video iframe {
+video {
+  padding-top: 60px;
+  padding-bottom: 50px;
+  width: 90%;
+  margin: auto;
+  height: auto;
   display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 30px;
-  width: 100%;
-  max-width: 1200px;
-  margin-bottom: 40px;
 }
 
 @media (min-width: 800px) {
@@ -41,9 +40,8 @@
     padding-bottom: 10%;
     gap: 10%;
   }
-  .video iframe {
+  video {
     width: 80%;
-    max-width: 1200px;
   }
   .abouttext {
     padding-top: 100px;
