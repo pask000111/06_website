@@ -8,9 +8,13 @@
 }
 
 h2 {
+  font-family: "Sansita", serif;
   font-size: 35px;
+  font-weight: 400;
+  font-style: normal;
   padding-top: 5.5rem;
   padding-bottom: 2rem;
+  text-align: center;
 }
 h3 {
   padding: 1rem;
@@ -108,4 +112,30 @@ p {
   h2 {
     font-size: 29px;
   }
+}
+/********* call **********/
+.knap {
+  width: 120px;
+  margin: auto;
+  background-color: #405572;
+  outline: 1px solid black;
+  margin-bottom: 10px;
+  padding-top: 5px;
+  padding-bottom: 10px;
+  padding-left: 35px;
+  padding-right: 30px;
+  border-radius: 100px;
+  font-size: 18px;
+  transition: background-color 0.3s ease;
+}
+.knap a {
+  font-family: "Corben", sans-serif;
+  color: white;
+  text-decoration: none;
+}
+.knap:hover {
+  background-color: #a6bf89;
+}
+.knap:hover a {
+  color: black;
 }
