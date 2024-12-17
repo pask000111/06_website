@@ -23,13 +23,13 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-block: 2rem;
+  padding-block: 0.5rem;
   background-color: #f2e7dc;
   z-index: 10;
 }
 
 .logo {
-  width: 8%;
+  width: 10%;
   margin-left: 1rem;
 }
 
