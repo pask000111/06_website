@@ -6,7 +6,7 @@
 }
 
 img {
-  width: 80%;
+  width: 100%;
   height: auto;
   display: block;
   margin-left: auto;
@@ -29,7 +29,7 @@ F2E7DC
 
 .ingredients {
   text-align: center;
-  padding-top: 5rem;
+  padding-top: 1rem;
   padding-bottom: 3rem;
   font-size: 40px;
 }
@@ -69,6 +69,18 @@ F2E7DC
   .ingredients {
     font-size: 40px;
   }
+  .only {
+    padding-left: 5rem;
+    padding-top: 6rem;
+    text-align: left;
+  }
+  .mytext {
+    padding-left: 5rem;
+    padding-right: 12rem;
+    padding-top: 0.5rem;
+    padding-bottom: 4rem;
+    line-height: 3rem;
+  }
 }
 @media (min-width: 1000px) {
   .grid4_1 {
@@ -78,12 +90,12 @@ F2E7DC
     font-size: 50px;
   }
   .only {
-    padding-left: 12rem;
+    padding-left: 5rem;
     padding-top: 6rem;
     text-align: left;
   }
   .mytext {
-    padding-left: 12rem;
+    padding-left: 5rem;
     padding-right: 12rem;
     padding-top: 0.5rem;
     padding-bottom: 4rem;
