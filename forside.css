@@ -1,6 +1,6 @@
 /*********** Layout ***********/
 .Welcome {
-  margin-bottom: 1%;
+  margin-bottom: 3%;
 }
 .welcometext {
   text-align: center;
@@ -14,10 +14,12 @@
   .grid_f_1-1-1-1 {
     display: grid;
     grid-template-columns: 1fr 8fr 1fr;
-    grid-template-rows: 1fr 5fr 1fr;
+    grid-template-rows: 1fr 5fr 0.2fr;
     background-color: #7aa5bf;
-    margin-bottom: 5%;
   }
+}
+body {
+  background-color: #7aa5bf;
 }
 .fill {
   background-color: #f2e7dc;
