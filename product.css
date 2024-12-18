@@ -125,7 +125,7 @@ p {
 .knap {
   width: 120px;
   margin: auto;
-  background-color: #405572;
+  background-color: var(--primary);
   outline: 1px solid black;
   margin-top: 30px;
   margin-bottom: 35px;
