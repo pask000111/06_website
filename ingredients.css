@@ -116,7 +116,6 @@ F2E7DC
   margin-top: 10%;
 }
 
-/* Indre kortstruktur */
 .hover_inner {
   position: relative;
   width: 100%;
@@ -130,7 +129,7 @@ F2E7DC
   transform: rotateY(180deg); /* Roterer billedet */
 }
 
-/* Fronten og bagsiden */
+/* Forsiden og bagsiden */
 .hover_front,
 .hover_back {
   position: absolute;
